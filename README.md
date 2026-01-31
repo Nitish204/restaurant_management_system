@@ -1,18 +1,44 @@
-# Restaurant Management System
+# 🍽️ Restaurant Management System
 
-## 📌 Project Description
-Restaurant Management System is a Python-based desktop application developed using Tkinter and SQLite. It automates restaurant operations such as order management, billing, inventory tracking, and daily sales reporting. The system reduces manual errors, improves billing accuracy, and enhances operational efficiency.
+A Python-based Restaurant Management System that automates daily restaurant operations such as order management, billing, and reporting. The system includes secure authentication with role-based access for administrators and cashiers.
 
 ---
 
 ## 🚀 Features
-- GUI-based order management
-- Menu and stock handling
-- Automated bill generation
-- Tax and service charge calculation
-- SQLite database for order storage
-- Daily sales report generation
-- User-friendly Tkinter interface
+
+- Secure login system with hashed passwords
+- Role-based access (Admin & Cashier)
+- Order and billing management
+- Automatic tax and service charge calculation
+- Daily sales report (Admin only)
+- SQLite database integration
+- User-friendly GUI using Tkinter
+
+---
+# 🍽️ Restaurant Management System
+
+A Python-based Restaurant Management System that automates daily restaurant operations such as order management, billing, and reporting. The system includes secure authentication with role-based access for administrators and cashiers.
+
+---
+
+## 🚀 Features
+
+- Secure login system with hashed passwords
+- Role-based access (Admin & Cashier)
+- Order and billing management
+- Automatic tax and service charge calculation
+- Daily sales report (Admin only)
+- SQLite database integration
+- User-friendly GUI using Tkinter
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Tkinter (GUI)
+- SQLite (Database)
+- Hashlib (Password Security)
 
 ---
 
@@ -21,21 +47,35 @@ Restaurant Management System is a Python-based desktop application developed usi
 ```
 restaurant_management_system/
 │
-├── restaurant_management_system.py   # Main Tkinter application
-├── README.md                          # Project documentation
+├── restaurant_management_system.py   # Main application file
+├── restaurant.db                     # SQLite database (auto-created)
+├── README.md                         # Project documentation
+├── requirements.txt                  # Dependencies
+└── screenshots/                      # (Optional) UI screenshots
+    ├── login.png
+    ├── dashboard.png
+    └── bill.png
 ```
 
 ---
 
 ## 🛠️ Technologies Used
+
 - Python
 - Tkinter (GUI)
 - SQLite (Database)
+- Hashlib (Password Security)
 
 ---
 
-## ⚙️ Installation & Execution
+---
 
-### 1️⃣ Clone the Repository
+## ▶️ How to Run the Project
+
+### Step 1: Clone the repository
 ```bash
 git clone https://github.com/Nitish204/restaurant_management_system.git
+
+
+## 📂 Project Structure
+
