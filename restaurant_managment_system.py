@@ -1,3 +1,4 @@
+""" A modern Restaurant-Management-System using Pyhton and Tkinter with enhansed UI and with Stock Tracking and Smart Billing System """
 import tkinter as tk
 from tkinter import messagebox
 import random
@@ -144,3 +145,4 @@ tk.Button(btn_frame, text="Exit", bg="#c0392b", fg="white",
           font=("Arial", 12, "bold"), command=root.destroy).pack(side=tk.LEFT, padx=20)
 
 root.mainloop()
+
