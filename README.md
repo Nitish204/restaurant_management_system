@@ -16,8 +16,8 @@ Restaurant Management System is a Python-based desktop application developed usi
 
 ---
 ## 📂 Project Structure
-''' restaurant_management_system.py '''
-''' Readme.md '''
+``` restaurant_management_system.py ```
+``` Readme.md ```
 
 ---
 
